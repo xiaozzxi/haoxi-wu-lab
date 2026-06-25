@@ -459,6 +459,7 @@ a:hover { color: var(--oxford-blue); }
     .nav-links.active { transform: translateY(0); opacity: 1; visibility: visible; }
     .nav-link { padding: var(--space-sm) 0; width: 100%; text-align: center; border-bottom: 1px solid var(--oxford-shell-grey); }
     .nav-link:last-child { border-bottom: none; }
+    .nav-link::after { display: none; }
     .nav-toggle { display: flex; }
     .nav-toggle.active span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
     .nav-toggle.active span:nth-child(2) { opacity: 0; }
